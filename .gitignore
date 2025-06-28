@@ -7,6 +7,9 @@ temp/
 # Ignore the .vscode directory
 .vscode/
 
+# Ignore the venv directory
+venv/
+
 # Ignore the books directory
 books
 
