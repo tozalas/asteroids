@@ -18,6 +18,7 @@ def main():
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
                 return
+            user.update(dt)
             screen.fill((0,0,0))  # Fill the screen with the background color
             user.draw(screen)
             pygame.display.flip()  # Update the display
