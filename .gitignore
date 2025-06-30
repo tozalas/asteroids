@@ -7,8 +7,11 @@ temp/
 # Ignore the .vscode directory
 .vscode/
 
-# Ignore the venv directory
-venv/
+# Ignore the uv associated directories and files
+.venv/
+.python-version
+pyproject.toml
+uv.lock
 
 # Ignore the books directory
 books
